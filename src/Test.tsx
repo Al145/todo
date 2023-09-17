@@ -142,7 +142,7 @@ const Test: React.FC = () => {
         <div className="sendTodoMain">
           <TextField
             id="outlined-basic"
-            label="Напиши задачу"
+            label="Бродяга, какие планы?"
             variant="outlined"
             type="text"
             value={taskText}
