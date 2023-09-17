@@ -1,38 +1,117 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(16, 20, 24);
+  color: azure;
+}
+
+.todos, .test {
+  padding-left: 50px;
+}
+
+.h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todo {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.error {
+  border: 1px red solid;
+}
+
+.error__msg {
+  color: red;
+}
+
+.active {
+  background: rgb(0, 204, 255);
+}
+
+.is__done {
+  text-decoration: line-through;
+}
+
+.done {
+  text-decoration: line-through;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.mainIndex {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.test2 {
+  display: flex;
+}
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 500px;
+  /* border: 2px red solid; */
+  padding: 0;
+  flex-direction: column;
+}
+
+.titleTodo {
+  margin-bottom: 40px;
+}
+
+#outlined-basic {
+  color: white;
+  width: 300px;
+}
+#outlined-basic-label {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+.sendTodoMain {
+  display: flex;
+  width: 430px;
+  justify-content: space-between;
+  padding-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root {
+  color: white !important;
+}
+
+.css-ptiqhd-MuiSvgIcon-root {
+  color: white;
+}
+
+.ulTodo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.liTodo {
+  display: flex;
+  justify-content: space-between;
+  width: 430px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.inpCheck {
+  margin-right: 5px;
 }
