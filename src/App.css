@@ -58,7 +58,7 @@ li {
   justify-content: center;
   align-items: center;
   height: 600px;
-  width: 500px;
+  max-width: 500px;
   /* border: 2px red solid; */
   padding: 0;
   flex-direction: column;
@@ -68,9 +68,13 @@ li {
   margin-bottom: 40px;
 }
 
+.todoMain {
+  max-width: 300px;
+}
+
 #outlined-basic {
   color: white;
-  width: 300px;
+  max-width: 200px;
 }
 #outlined-basic-label {
   color: white;
@@ -81,9 +85,9 @@ li {
 }
 .sendTodoMain {
   display: flex;
-  width: 430px;
-  justify-content: space-between;
+  max-width: 400px;
   padding-bottom: 20px;
+  justify-content: space-between;
 }
 
 .css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root {
@@ -114,4 +118,12 @@ li {
 
 .inpCheck {
   margin-right: 5px;
+}
+
+.css-1j7qk7u {
+  color: white !important;
+}
+
+.css-igs3ac {
+  border-color: white !important;
 }
